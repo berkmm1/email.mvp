@@ -1,0 +1,14 @@
+{
+  "name": "imap-connector",
+  "version": "1.0.0",
+  "main": "imap_fetcher.js",
+  "scripts": {
+    "start": "node imap_fetcher.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "imap-simple": "^5.0.0",
+    "mailparser": "^3.10.0",
+    "dotenv": "^16.0.0"
+  }
+}
